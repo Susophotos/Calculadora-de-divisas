@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+
+html {
+    min-width: 100%;
+}
+body {
+    min-height: 100vh;
+    background-image: url("fondo-1.svg");
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+    position: relative;
+    padding-bottom: 3em;
+}
+
+.header {
+    background: linear-gradient( white, cyan);
+    width: 100%;
+    margin: 0 auto;
+    
+    text-align: center;
+    font-family: 'Arvo', serif;
+
+    
+}
+
+#calculator {
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 5px;
+    background: linear-gradient(cyan, white);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 15rem;
+    line-height: 1.7rem;
+    transition: ease 0.5s;
+}
+
+#calculator:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    
+}
+
+label {
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+@media (max-width: 375px) {
+    #calculator {
+        width: 80%;
+        margin-top: 20%;
+    }
+   
+}
+footer {
+
+    width: 95%;
+    margin: 0 auto;
+    margin-top: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.btn {
+    color: rgb(0, 0, 0);
+    background-color: rgb(149, 255, 147);
+    border-radius: 9px;
+    transition: ease 0.9sec;
+
+}
+
+.btn2 {
+    color: rgb(0, 0, 0);
+    background-color: cyan;
+    border-radius: 9px;
+    transition: ease 0.9sec;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0,0.7);
+}
+.btn2:hover {
+    background-color: rgb(255, 229, 181);
+    color: black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0,0.7);
+}

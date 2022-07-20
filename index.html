@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora-de-divisas</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+   
+    <div class="flex-container">
+        <div class="header">
+            <h1>Conversor Euros a Dolares </h1>
+        </div>
+        <div id="calculator">
+            <form action="#" id="calculadora">
+                <br>
+                <label for="numero1">Euros</label>
+                <br>
+                <input type="number" id="numero1"/>
+                <br>
+                <label for="res1"></label>
+                <input type="text" id="res1">
+                <br>
+                <label for="numero2">Dolares</label>
+                <br>
+                <input type="number" id="numero2"/>
+                <br>
+                <label for="respuesta"></label>
+                <input type="text" id="respuesta"/>
+                <br>
+                <button class="btn"  onclick="calc ()">Calcular</button>
+                <button class="btn2" id="refresh" onclick="refrescar ();">Refrescar</button>
+            </form>
+            
+        </div>  
+        <footer>
+            <p>&#169 Suso-Photos 2022</p>
+        </footer>  
+    </div>
+   
+</body>
+<script src="index.js"></script>
+</html>
